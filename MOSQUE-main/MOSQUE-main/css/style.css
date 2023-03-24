@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8em;
+}
+body p{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 200;
+}
+.main-btn a{
+    background: #baa769;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 16px 28px 16px 28px;
+    border-radius: 25px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.main-btn a i{
+    color: #fff;
+    font-size: 11px;
+    padding: 3px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+.main-title h2{
+    font-size: 35px;
+    font-weight: 500;
+    color: #333;
+    line-height: 30px;
+    text-transform: uppercase;
+    position: relative;
+}
+.main-title h2::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -22px;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 4px;
+    background: #baa769;
+}
+
+/* ===========header part start======= */
+#header .header-top{
+    padding: 30px 20px;
+}
+#header .header-top-left{
+    padding-top: 20px;
+}
+#header .header-top-left h3{
+    font-size: 22px;
+    color: #baa769;
+    font-weight: 700;
+}
+#header .header-top-left a{
+    color: #333;
+    font-size: 16px;
+    transition: all linear .4s;
+}
+#header .header-top-left a:hover{
+    color: #baa769;
+}
+#header .header-top-left span{
+    font-size: 20px;
+    padding: 0 5px;
+}
+#header .header-top-right{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: center;
+    gap: 20px;
+}
+#header .header-top-right h6{
+    font-size: 16px;
+    color: #000;
+    padding-top: 5px;
+}
+#header .header-top-right h4{
+    font-size: 16px;
+    color: #000;
+}
+#header .header-top-right h5{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+/* ========main nav start========= */
+#header .main-nav{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    background: #ffffff56;
+}
+#header .nav-link{
+    padding: 0;
+    margin: 0 20px;
+    font-size: 16px;
+    color: #363636;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#header .dropdown-menu{
+    background: #363636;
+}
+#header .dropdown-menu .dropdown-item{
+    color: #baa769;
+    border-top: 1px solid #b9b8b1;
+    padding: 10px 20px;
+}
+#header .dropdown-menu :first-child .dropdown-item {
+    border-top: none;
+}
+#header .dropdown-menu .dropdown-item:hover{
+    background: #000;
+}
+
+/* ==========banner part============ */
+#banner{
+    background: url(../images/ccm_r23_concept_bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#banner .banner-content h3{
+    font-size: 18px;
+    background: #611818;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    margin-top: 168px;
+}
+#banner .banner-content h3::after{
+    position: absolute;
+    content: '';
+    background: #611818;
+    width: 45vw;
+    height: 15px;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#banner .banner-content h2{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #3d0303;
+    padding-top: 54px;
+    word-spacing: 30px;
+}
+#banner .secondary-btn{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+#banner .secondary-btn a{
+    padding: 10px 29px;
+    border-radius: 25px;
+    background: #611818;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all linear .4s;
+}
+#banner .secondary-btn a:hover{
+    background: #00c3ff;
+}
+/* ==========about part======== */
+/* ==========islam-part-start====== */
+#islam-part{
+    padding-top:50px;
+    padding-bottom:50px;
+    background:rgba(255, 255, 255, 0.7);
+}
+
+#islam-part .islam-part-text-a1 h3{
+    color:#000000;
+    font-size:50px;
+    font-weight:600;
+    font-family:'Poppins', sans-serif;
+    line-height:24px;
+    text-align:center;
+    text-transform:uppercase;
+    margin-bottom:60px;
+    
+}
+#islam-part .islam-text-left h3{
+    color:#000000;
+    font-size:20px;
+    font-weight:600;
+    font-family:'Poppins', sans-serif;
+    line-height:24px;
+    text-transform:uppercase;
+    word-spacing: 8px;
+    text-align:center
+}
+
+#islam-part .islam-span-left-a1{
+    display:block;
+    margin-bottom:20px;
+}
+#islam-part .islam-span-left-a2-center{
+    color:#ac1b1b;
+    font-family:'Poppins', sans-serif;
+    
+    
+}
+#islam-part .islam-span-left-a2{
+    display:block;
+    margin-bottom:20px;
+}
+#islam-part .center{
+    color:#000000;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+#islam-part .islam-text-left-a2 h3{
+    color:#000000;
+    font-size:20px;
+    font-weight:600;
+    font-family:'Poppins', sans-serif;
+    line-height:24px;
+    text-transform:uppercase;
+    word-spacing: 8px;
+    text-align:center;
+    margin-top:30px;
+    
+}
+/* ================================= */
+
+#islam-part .islam-text-right h3{
+    color:#000000;
+    font-size:20px;
+    font-weight:600;
+    font-family:'Poppins', sans-serif;
+    line-height:24px;
+    text-transform:uppercase;
+    word-spacing: 8px;
+    text-align:center
+}
+#islam-part .islam-span-right-b1{
+    display:block;
+    margin-bottom:20px;
+}
+#islam-part .center-b1{
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    text-transform:uppercase;
+    margin-top:58px;
+}
+.islam-right-img{
+    margin-top:134px;
+}
+.islam-text-right-b2 h3{
+    color:#000000;
+    font-size:20px;
+    font-weight:600;
+    font-family:'Poppins', sans-serif;
+    line-height:24px;
+    text-transform:uppercase;
+    word-spacing: 8px;
+    text-align:center;
+    margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========islam-part-end========= */
+/* ==========footer part========== */
+#footer{
+ background: #222222;
+ padding-top: 70px;
+ padding-bottom: 50px;
+}
+#footer .footer-left a{
+    padding-bottom: 10px;
+}
+#footer .footer-left span{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #baa769;
+    padding-bottom: 5px;
+}
+#footer .footer-right{
+    padding-top: 30px;
+}
+#footer .footer-right h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 30px;
+}
+#footer .footer-right input{
+    padding: 13px 15px;
+    background: #fff;
+    outline: none;
+    border: none;
+    color: #000;
+    border-radius: 3px;
+}
+#footer .footer-right input::placeholder{
+    color: #333;
+}
+#footer .policy{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+#footer .policy span{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+#footer .policy span a{
+    color: #fff;
+    text-decoration: underline;
+}
+#footer .main-btn{
+    padding-bottom: 50px;
+}
+#footer .main-btn a{
+    display: inline;
+}
+#footer .footer-right .social-area{
+    padding-top: 30px;
+}
+#footer .footer-right .social-area ul{
+    padding: 0;
+    margin: 0;
+}
+#footer .footer-right .social-area ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+#footer .footer-right .social-area ul li a i{
+    font-size: 30px;
+    color: #b9b8b1;
+    transition: all linear .4s;
+}
+#footer .footer-right .social-area ul li a i:hover{
+    color: #baa769;
+}
+/* ===========copyright part========== */
+#copyright{
+    padding: 14px 0;
+    background: #baa769;
+}
+#copyright ul{
+    padding: 0;
+    margin: 0;
+}
+#copyright ul li{
+    display: inline-block;
+    font-size: 14px;
+    border-right: 3px solid #fff;
+    padding: 0 5px;
+    color: #fff;
+}
+#copyright ul li:last-child{
+    border-right:none;
+}
+#copyright ul li a{
+    color: #fff;
+    text-decoration: underline;
+}
